@@ -1,4 +1,4 @@
-#System Center Configuration Manager CurrentBranch (EVAL)
+# System Center Configuration Manager CurrentBranch (EVAL)
 This Artifact will install System Center Configuration Manager CurrentBranch Evaluation Edition (usable for 180 Days).
 
 ### Requirements:
@@ -17,7 +17,7 @@ The Artifact contains two Parameters:
 If you leave these Parameters blank, it will use the Site-Code "TST" and Site Name "Test Site".
 
 
-###Installation Steps
+### Installation Steps
 If Server is not Domain-Joined:
 - Add the Artifact "Create new Domain" before installing the ConfigMgr Artifact.
 
@@ -36,10 +36,10 @@ Sub-Tasks of the Artifact:
 - Install SCUP
 ```
 
-###Duration:
+### Duration:
 End-to-End setup on a single core Machine with 4GB Memory took a bit more than one hour...
 
-###Troubleshooting
+### Troubleshooting
 - If CM is missing
  - check if Server is member of a Domain
  - check if ADK is installed
